@@ -2,6 +2,7 @@
 using namespace std;
 
 class AbstraksiKlas {
+private: string x, y;
 
 public:
 
@@ -20,5 +21,9 @@ public:
 };
 
 int main() {
-    
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
 }
